@@ -1,0 +1,18 @@
+#include "totem.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&xiao_d 4 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 5 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 10 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 9 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+
+/*
+ * gpio for tx should be 6
+ * gpio for rx should be 7
+ * guess for nfc pins 1 and 2: 20 and 21 
+*/
