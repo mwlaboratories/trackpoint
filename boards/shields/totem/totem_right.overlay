@@ -14,8 +14,3 @@
         ;
 };
 
-/*
- * gpio for tx should be 6
- * gpio for rx should be 7
- * guess for nfc pins 1 and 2: 20 and 21 
-*/
