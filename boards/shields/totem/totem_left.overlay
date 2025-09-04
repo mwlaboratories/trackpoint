@@ -164,7 +164,7 @@
 //   - 14400 ( 69 us cycle length   /   14.5kHz)
 //   -  9600 (100 us cycle length   /   10.0kHz)
 //   - 19200 ( 52 us cycle length   /   19kHz)
-#define MOUSE_PS2_UART_BAUD_RATE <9600>
+#define MOUSE_PS2_UART_BAUD_RATE <14400>
 
 
 /*
